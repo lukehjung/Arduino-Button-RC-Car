@@ -55,6 +55,7 @@ So set up the relay on the left side of the board like so.
 Step 3: Setting up the Switch
 Now we need to set up the switch.  So a switch does exactly what it seems it would do.  It gives a response to the board to the energy it’s experiencing.  It has two modes, High and Low, and when we use a digital read on the switch, we can tell whether or not to put power through the relay and therefore the wheels.
 So set up the switch on the right side of the board like so
+
 ![alt text](https://github.com/lukejung99/Arduino-Button-RC-Car/blob/master/Photos/3.png?raw=true)
 ![alt text](https://github.com/lukejung99/Arduino-Button-RC-Car/blob/master/Photos/4.png?raw=true)
 
@@ -66,13 +67,17 @@ So set up the switch on the right side of the board like so
 Step 4: Connect the Wheels
 Now for the last step, we just need to connect the rc car wheels. Usually, these wires are in a strand, so it’s hard to connect them to our breadboard or other parts of our shield.  Therefore we use the F/M jumper cables to extend the wires and make it easier to plug in.
 For these, we plug it in like the following.
+
 ![alt text](https://github.com/lukejung99/Arduino-Button-RC-Car/blob/master/Photos/5.png?raw=true)
+
 •    Connect the blue jumper cable to position 6 of the relay
 •    Connect the white jumper cable to the bottom most slot of the red row on the right
 And that’s it for the Board!! Now we can finally go onto the programming part.
 Step 5: Writing the Program
 So the first thing we want to do write in our program are the instance variables we want to use.  The code we wrote included these
+
 ![alt text](https://github.com/lukejung99/Arduino-Button-RC-Car/blob/master/Photos/6.png?raw=true)
+
 The next method we use is to setup the board, which is just setting up input or output
 ![alt text](https://github.com/lukejung99/Arduino-Button-RC-Car/blob/master/Photos/7.png?raw=true)
 The next method we need is the debounce method.  Debounce is a method used to make sure the button works as wanted.  Since the switch is made with the connection of metal hitting each other.  Sometimes the button doesn’t depress right and the program doesn’t know whether or not to change the current to the relay.  Therefore we can create a method to wait 5 ms before reading so that it gives the button time to bounce and get the correct information.
