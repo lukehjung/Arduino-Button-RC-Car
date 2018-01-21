@@ -56,7 +56,7 @@ Step 3: Setting up the Switch
 Now we need to set up the switch.  So a switch does exactly what it seems it would do.  It gives a response to the board to the energy it’s experiencing.  It has two modes, High and Low, and when we use a digital read on the switch, we can tell whether or not to put power through the relay and therefore the wheels.
 So set up the switch on the right side of the board like so
 
-![alt text](https://github.com/lukejung99/Arduino-Button-RC-Car/blob/master/Photos/3.png?raw=true)
+![pic_1](https://github.com/lukejung99/Arduino-Button-RC-Car/blob/master/Photos/3.png?raw=true)
 ![alt text](https://github.com/lukejung99/Arduino-Button-RC-Car/blob/master/Photos/4.png?raw=true)
 
 •    Connect the white wire from position 2 to the 5V at the red side on the right
