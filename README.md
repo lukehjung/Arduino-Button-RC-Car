@@ -45,7 +45,7 @@ The first step to setting up our circuit board is to attach the Arduino shield w
 So the first part we want to do is set up the relay.  If you researched, a relay is an electro-magnetic switch that can use a relatively small current to power a much larger resistor like the wheels we want.
 So set up the relay on the left side of the board like so.
 
-![alt text](https://raw.githubusercontent.com/lukejung99/Arduino-Button-RC-Car/tree/master/Photos/1.png/to/img.pnt)
+![alt text](https://raw.githubusercontent.com/lukejung99/Arduino-Button-RC-Car/tree/master/Photos/1.png/to/img.png)
 ![alt text](https://raw.githubusercontent.com/lukejung99/Arduino-Button-RC-Car/tree/master/Photos/2.png)
 
 •    We want to the red wire to relay number 1 to the green 3 on the top side
