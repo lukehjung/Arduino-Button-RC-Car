@@ -12,19 +12,19 @@ This is an Arduino Tutorial for creating a remote controlled wheel robot.  Creat
 Tutorial
 
 ### Review Java Concepts
-Class
-Object
-Boolean
-If statements
-Instance Variables
+•    Class
+•    Object
+•    Boolean
+•    If statements
+•    Instance Variables
 
 ### Study for Arduino
-setup()
-pinMode()
-digitalRead()
-delay()
-loop()
-LOW/HIGH
+•    setup()
+•    pinMode()
+•    digitalRead()
+•    delay()
+•    loop()
+•    LOW/HIGH
 
 ## Step 1: Getting Started
 So to begin with Arduino, we need to understand what an Arduino is.  Arduino is a type of computing chip that takes input for building various digital devices and interactive objects using circuits and wires.
